@@ -1,0 +1,142 @@
+﻿<Window x:Class="EditMulti.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EditMulti"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="WhiteSmoke" />
+                <Setter Property="Foreground" Value="DimGray" />
+                <Setter Property="FontFamily" Value="Cascadia Code" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+        <Style x:Key="GridOne_1" TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontFamily" Value="Bodoni MT Black"/>
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+        <Style x:Key="GridOne_2" TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="Wheat"/>
+                <Setter Property="Foreground" Value="Gray" />
+                <Setter Property="FontFamily" Value="Bradley Hand ITC"/>
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+        <Style x:Key="GridOne_3" TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="DarkGoldenrod"/>
+                <Setter Property="Foreground" Value="Indigo" />
+                <Setter Property="FontFamily" Value="MV Boli"/>
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+        <Style x:Key="GridTwo_1" TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontFamily" Value="Broadway"/>
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+        <Style x:Key="GridTwo_2" TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="Lavender"/>
+                <Setter Property="Foreground" Value="MediumVioletRed" />
+                <Setter Property="FontFamily" Value="Algerian"/>
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+        <Style x:Key="GridTwo_3" TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="MediumPurple"/>
+                <Setter Property="Foreground" Value="PapayaWhip" />
+                <Setter Property="FontFamily" Value="Fixifont"/>
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Rectangle Width="400" Height="435">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="DarkGray" Offset="0.1" />
+                    <GradientStop Color="Gray" Offset="0.25" />
+                    <GradientStop Color="LightGray" Offset="0.75" />
+                    <GradientStop Color="WhiteSmoke" Offset="1.0" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Width="400" Height="435" Grid.Column="1" Margin="0,-1,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="DarkGray" Offset="0.1" />
+                    <GradientStop Color="Gray" Offset="0.25" />
+                    <GradientStop Color="LightGray" Offset="0.75" />
+                    <GradientStop Color="WhiteSmoke" Offset="1.0" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBox HorizontalAlignment="Center" Margin="0,23,0,0" 
+                 TextWrapping="Wrap" VerticalAlignment="Top" 
+                 Height="142" Width="332" FontSize="25" x:Name="Text1" AcceptsReturn="True"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,194,0,0" 
+                 TextWrapping="Wrap" VerticalAlignment="Top" 
+                 Height="25" Width="266" FontSize="10"
+                 Text="{Binding ElementName=Text1, Path=Text}"
+                 Style="{StaticResource ResourceKey=GridOne_1}"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,241,0,0" 
+                 TextWrapping="Wrap" VerticalAlignment="Top"
+                 Height="25" Width="266" FontSize="10"
+                 Text="{Binding ElementName=Text1, Path=Text}"
+                 Style="{StaticResource ResourceKey=GridOne_2}"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,288,0,0" 
+                 TextWrapping="Wrap" VerticalAlignment="Top" 
+                 Height="25" Width="266" FontSize="10"
+                 Text="{Binding ElementName=Text1, Path=Text}"
+                 Style="{StaticResource ResourceKey=GridOne_3}"/>
+
+
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" 
+                 Margin="0,23,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="332" 
+                 Height="142" FontSize="25" x:Name="Text2" AcceptsReturn="True"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center"
+                 Margin="0,194,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" 
+                 Width="266" Height="25" FontSize="10" 
+                 Text="{Binding ElementName=Text2, Path=Text}"
+                 Style="{StaticResource ResourceKey=GridTwo_1}"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" 
+                 Margin="0,241,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" 
+                 Width="266" Height="25" FontSize="10"
+                 Text="{Binding ElementName=Text2, Path=Text}"
+                 Style="{StaticResource ResourceKey=GridTwo_2}"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" 
+                 Margin="0,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top"
+                 Width="266" Height="24" FontSize="10"
+                 Text="{Binding ElementName=Text2, Path=Text}"
+                 Style="{StaticResource ResourceKey=GridTwo_3}"/>
+    </Grid>
+</Window>

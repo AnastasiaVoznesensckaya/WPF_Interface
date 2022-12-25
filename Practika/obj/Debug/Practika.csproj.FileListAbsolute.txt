@@ -1,0 +1,48 @@
+C:\Users\307-11\Downloads\Practika\bin\Debug\Practika.exe.config
+C:\Users\307-11\Downloads\Practika\bin\Debug\Practika.exe
+C:\Users\307-11\Downloads\Practika\bin\Debug\Practika.pdb
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.csproj.AssemblyReference.cache
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.csproj.SuggestedBindingRedirects.cache
+C:\Users\307-11\Downloads\Practika\obj\Debug\MainWindow.g.cs
+C:\Users\307-11\Downloads\Practika\obj\Debug\App.g.cs
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika_MarkupCompile.cache
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika_MarkupCompile.lref
+C:\Users\307-11\Downloads\Practika\obj\Debug\MainWindow.baml
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.g.resources
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.Properties.Resources.resources
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.csproj.GenerateResource.cache
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.csproj.CoreCompileInputs.cache
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.exe
+C:\Users\307-11\Downloads\Practika\obj\Debug\Practika.pdb
+D:\!практика\WPF pract\Practika\bin\Debug\Practika.exe.config
+D:\!практика\WPF pract\Practika\bin\Debug\Practika.exe
+D:\!практика\WPF pract\Practika\bin\Debug\Practika.pdb
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.csproj.AssemblyReference.cache
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.csproj.SuggestedBindingRedirects.cache
+D:\!практика\WPF pract\Practika\obj\Debug\MainWindow.g.cs
+D:\!практика\WPF pract\Practika\obj\Debug\App.g.cs
+D:\!практика\WPF pract\Practika\obj\Debug\Practika_MarkupCompile.cache
+D:\!практика\WPF pract\Practika\obj\Debug\Practika_MarkupCompile.lref
+D:\!практика\WPF pract\Practika\obj\Debug\MainWindow.baml
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.g.resources
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.Properties.Resources.resources
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.csproj.GenerateResource.cache
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.csproj.CoreCompileInputs.cache
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.exe
+D:\!практика\WPF pract\Practika\obj\Debug\Practika.pdb
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\bin\Debug\Practika.exe.config
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\bin\Debug\Practika.exe
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\bin\Debug\Practika.pdb
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.csproj.SuggestedBindingRedirects.cache
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\MainWindow.g.cs
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\App.g.cs
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika_MarkupCompile.cache
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika_MarkupCompile.lref
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\MainWindow.baml
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.g.resources
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.Properties.Resources.resources
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.csproj.GenerateResource.cache
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.exe
+C:\Users\Анастасия\Desktop\WPF pract\laba03\Practika\obj\Debug\Practika.pdb

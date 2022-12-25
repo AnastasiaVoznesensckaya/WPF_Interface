@@ -1,0 +1,16 @@
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\bin\Debug\MultiTrigger.exe.config
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\bin\Debug\MultiTrigger.exe
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\bin\Debug\MultiTrigger.pdb
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.csproj.SuggestedBindingRedirects.cache
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MainWindow.g.cs
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\App.g.cs
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger_MarkupCompile.cache
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger_MarkupCompile.lref
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MainWindow.baml
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.g.resources
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.Properties.Resources.resources
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.csproj.GenerateResource.cache
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.exe
+C:\Users\Анастасия\Desktop\WPF pract\MultiTrigger\MultiTrigger\obj\Debug\MultiTrigger.pdb

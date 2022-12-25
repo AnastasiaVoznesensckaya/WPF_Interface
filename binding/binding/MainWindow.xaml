@@ -1,0 +1,17 @@
+﻿<Window x:Class="binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:binding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Slider Minimum="8" Maximum="100" x:Name="SliderFontSize" 
+                Canvas.Left="176" Canvas.Top="359" Width="448" IsSnapToTickEnabled="True"
+                Value="{Binding ElementName=FonttSize, Path=Text}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="Message" FontSize="{Binding ElementName=SliderFontSize, Path=Value}"                  Canvas.Left="109" Canvas.Top="55" Width="582"                  HorizontalAlignment="Left" Height="254" VerticalAlignment="Top"/>        <TextBox x:Name="FonttSize" HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" Width="93" Canvas.Left="36" Canvas.Top="366" Height="22"/>
+        <Label  Content="Размер шрифта" Canvas.Left="20" Canvas.Top="330" FontSize="16"/>
+    </Canvas>
+</Window>
